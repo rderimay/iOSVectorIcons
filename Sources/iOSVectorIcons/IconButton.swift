@@ -8,6 +8,7 @@
 import SwiftUI
 
 @available(iOS 13.0.0, *)
+@available(watchOS 6.0, *)
 public struct IconButton: View {
     let icon: IconFont
     let size: CGFloat
