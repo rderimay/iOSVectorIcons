@@ -39,6 +39,7 @@ public struct IconButton: View {
 }
 
 @available(iOS 13.0.0, *)
+@available(watchOS 6.0, *)
 public extension IconButton {
     func style(
         width: CGFloat? = nil,
@@ -67,6 +68,7 @@ public extension IconButton {
 }
 
 @available(iOS 13.0.0, *)
+@available(watchOS 6.0, *)
 private struct HighlightedButtonStyle: ButtonStyle {
     let width: CGFloat!
     let height: CGFloat!
@@ -108,6 +110,7 @@ private struct HighlightedButtonStyle: ButtonStyle {
 }
 
 @available(iOS 13.0.0, *)
+@available(watchOS 6.0, *)
 private extension View {
     /// Applies the given transform if the given condition evaluates to `true`.
     /// - Parameters:
