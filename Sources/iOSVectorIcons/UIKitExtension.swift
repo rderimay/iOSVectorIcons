@@ -7,6 +7,7 @@
 
 import UIKit
 
+#if !os(watchOS)
 public extension UILabel {
     func setIcon(_ icon: IconFont, size: CGFloat? = nil, color: UIColor? = nil) {
         FontRegistering.register()
@@ -28,3 +29,4 @@ public extension UIButton {
         }
     }
 }
+#endif
